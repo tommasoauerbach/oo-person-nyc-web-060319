@@ -8,8 +8,9 @@ end
 
 @@bank_account = 25
 
-def self.count
-  @@bank_account
+def initialize
+  @bank_account += 1
+end
 end
 
 end
