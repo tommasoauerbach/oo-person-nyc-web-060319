@@ -11,6 +11,9 @@ end
 def initialize
   @bank_account += 1
 end
+
+def self.bank_account
+  @@bank_account
 end
 
 end
